@@ -31,7 +31,7 @@ async function fetchAclEntries(client, instanceId) {
   });
   const runtime = new Util.RuntimeOptions({});
   const resp = await client.getInstanceEndpointWithOptions(request, runtime);
-  return (resp.body && Array.isArray(resp.body.AclEntries)) ? resp.body.AclEntries : [];
+  return (resp.body && Array.isArray(resp.body.aclEntries)) ? resp.body.aclEntries : [];
 }
 
 async function addAclEntry(client, instanceId, entry, comment) {
