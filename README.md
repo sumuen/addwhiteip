@@ -63,6 +63,6 @@ npm install --registry=https://registry.npmmirror.com
 {
   "Code": "success",
   "IsSuccess": true,
-  "RequestId": "D735C5EC-4206-4F48-A090-307BF56BEB99"
+  "RequestId": "xx-4x6-4x8-x-3xxx"
 }
 ```
